@@ -1,0 +1,77 @@
+/* ----------- Container ----------- */
+.container { 
+  padding-left: 36px;
+  padding-right: 24px;
+  padding-top: 24px;
+  width: 100%;
+}
+
+
+/* ----------- Navigation ----------- */
+@media (min-width: 1200px) {
+  #navbarMenu {
+    display: none !important;
+  }
+}
+
+/* ----------- Hero ----------- */
+#hero { 
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.aspectRatiobox {
+  padding-top: calc(2/3 * 100%);
+  background-size: cover;
+  background-position: center;
+}
+.date { 
+  color: rgb(182, 182, 182); 
+}
+.title { 
+  color: black;
+}
+@media (max-width: 1200px) {
+  .news .description {
+    display: none !important;
+  }
+  .leadtitle { 
+    font-size: 20px;
+  }
+  .title { 
+    font-size: 14px;
+  }
+}
+.scrollableRow {
+  overflow-x: scroll;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.scrollableRow > [class*=col-] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+
+/* ----------- Articles ----------- */
+.socialmedia {
+  padding: 32px;
+}
+@media (max-width: 950px) {
+  .socialmedia {
+    text-align: center;
+    padding: 16px;
+  }
+}
+.ourhosts { 
+  color: black;
+}
+
+/* ----------- Footer ----------- */
+@media (max-width: 950px) {
+  .copyright { 
+    align-content: left;
+  }
+}
